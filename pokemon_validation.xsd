@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace = "localfile" xmlns = "localfile" elementFormDefault = "qualified">
+    <xs:element name="pokemon">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="row" minOccurs="0" maxOccurs="19">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string"/>
+                            <xs:element name="Type1" type="xs:string"/>
+                            <xs:element name="Type2" type="xs:string"/>
+                            <xs:element name="HP" type="xs:integer"/>
+                            <xs:element name="Attack" type="xs:integer"/>
+                            <xs:element name="Defense" type="xs:integer"/>
+                            <xs:element name="spatk" type="xs:integer"/>
+                            <xs:element name="spdef" type="xs:integer"/>
+                            <xs:element name="Speed" type="xs:integer"/>
+                            <xs:element name="Generation" type="xs:integer"/>
+                            <xs:element name="Legendary" type="xs:string"/>
+                            <xs:element name="Total" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

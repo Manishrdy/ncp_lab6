@@ -1,0 +1,60 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT pokemon (row)+>
+<!ATTLIST pokemon
+  xmlns CDATA #FIXED 'localfile'
+  xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xsi:schemaLocation CDATA #REQUIRED>
+
+<!ELEMENT row (Name,Type1,Type2,HP,Attack,Defense,spatk,spdef,Speed,
+               Generation,Legendary,Total)>
+<!ATTLIST row
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Name (#PCDATA)>
+<!ATTLIST Name
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Type1 (#PCDATA)>
+<!ATTLIST Type1
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Type2 (#PCDATA)>
+<!ATTLIST Type2
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT HP (#PCDATA)>
+<!ATTLIST HP
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Attack (#PCDATA)>
+<!ATTLIST Attack
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Defense (#PCDATA)>
+<!ATTLIST Defense
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT spatk (#PCDATA)>
+<!ATTLIST spatk
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT spdef (#PCDATA)>
+<!ATTLIST spdef
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Speed (#PCDATA)>
+<!ATTLIST Speed
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Generation (#PCDATA)>
+<!ATTLIST Generation
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Legendary (#PCDATA)>
+<!ATTLIST Legendary
+  xmlns CDATA #FIXED 'localfile'>
+
+<!ELEMENT Total (#PCDATA)>
+<!ATTLIST Total
+  xmlns CDATA #FIXED 'localfile'>
